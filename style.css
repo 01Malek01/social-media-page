@@ -1,0 +1,66 @@
+.membres {
+    font-size: 15px;
+    font-weight: bold;
+}
+.member-friends {
+    background-color: #c1ffffab;
+    font-size: smaller;
+    color: #133d3d;
+    padding: 3px;
+    border-radius: 3px;
+}
+.recently-active {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.recently-active img {
+    display: inline;
+    width: 30%;
+    max-width: 30%;
+    margin: 0;
+    padding: 2px;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+.jumbotron {
+    background-color: #0a0a0a24;
+    border-radius: 5px;
+    height: 3rem;
+}
+#load-more {
+    width: 100%;
+    background-color: #6c757d66;
+    color: black;
+    font-weight: bold;
+}
+#load-more:hover {
+    background-color: #565e64;
+    color: white;
+}
+
+.next-prev-icons{
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    transform:translate(50%,18%);
+}
+
+.features p {
+    text-align: center;
+    max-width: 150px;
+    padding-top: 1rem;
+}
+
